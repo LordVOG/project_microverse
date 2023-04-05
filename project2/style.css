@@ -1,0 +1,116 @@
+body{
+	background-color: #eee;
+	font-family: sans-serif;
+}
+
+#header{
+	display: flex;
+	position: relative;
+}
+
+#header-img{
+	width: 100%;
+	height: 100%;
+	max-width: 300px;
+}
+
+#nav-bar{
+	float: right;
+	position: absolute;
+	right: 0;
+
+}
+
+#nav-bar ul{
+	display: flex;
+}
+
+#nav-bar ul li, #nav-bar ul li a {
+	text-decoration: none;
+	list-style: none;
+	color: black;
+	padding-right: 30px;
+}
+
+#bodyHeader {
+	text-align: center;
+}
+
+#email{
+	width: 25%;
+	height: 30px;
+}
+
+#submit{
+	background-color: orange;
+	font-size: 17px;
+	font-weight: bold;
+	margin-top: 10px;
+	border: none;
+	padding: 10px;
+	margin-bottom: 15px;
+}
+
+#bodyMiddle{
+	
+	margin-left: 15%;
+}
+
+#bodyMiddleItems{
+	margin-top: 50px;
+}
+
+#bodyMiddleItems h3{
+	font-size: 25px;
+}
+
+#video{
+	margin-top: 40px;
+	border: none;
+}
+
+#price{
+	display: flex;
+	margin-top: 50px;
+	justify-content: center;
+}
+
+#priceCard{
+	border: 1px solid black;
+	margin-right: 30px;
+	text-align: center;
+	padding: 0 30px 30px 30px;
+}
+
+#priceCard h3{
+	background: rgb(202, 202, 202);
+	padding: 5px 40px;
+}
+
+#submit2{
+	background-color: orange;
+	font-size: 17px;
+	font-weight: 400;
+	margin-top: 10px;
+	border: none;
+	padding: 10px 20px;
+}
+
+#footer{
+	background-color: rgb(192, 190, 190);
+	padding-left: 60%;
+}
+
+#footerItems ul{
+	display: flex;
+}
+
+#footerItems ul li, #footerItems ul li a{
+	list-style: none;
+	text-decoration: none;
+	margin-left: 30px;
+}
+
+#footerItems p{
+	margin-left: 0;
+}
