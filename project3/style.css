@@ -1,5 +1,33 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
 #main-doc {
 	display: flex;
 	flex-direction: row;
-   
+	gap: 2rem;
+	width: 100%;
+}
+
+#nav {
+	margin-top: 1rem;
+	width: 20%;
+	/* position: fixed;
+	overflow: hidden; */
+}
+
+.nav-items {
+	padding-left: 0.5rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: grey;
+}
+ul {
+	padding-left: 1rem;
+}
+#mainSection {
+	width: 80%;
 }
